@@ -38,6 +38,7 @@ def starts_with_consonant? s
       return ["a","e","i","o","u"].include?(letter) ? false : true
     end
   end
+  return false
 end
 
 def binary_multiple_of_4? s
